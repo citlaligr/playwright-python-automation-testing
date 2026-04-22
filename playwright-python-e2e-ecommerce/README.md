@@ -54,9 +54,9 @@ Note: This implementation improves upon standard examples by utilizing Playwrigh
     pytest --html=report.html
 
 ## 📂 Installation and Execution
- test_green_cart.py: Contains the test scripts.
- requirements.txt: Project dependendy list.
- .gitignore: Files explided from version control.
+ 1. test_green_cart.py: Contains the test scripts.
+ 2. requirements.txt: Project dependendy list.
+ 3. .gitignore: Files explided from version control.
  
 ## 🎓 Credits & Attribution
 
