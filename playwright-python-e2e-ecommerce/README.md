@@ -28,6 +28,8 @@ Tests are documented using the **Gherkin** format and include:
 4. **Product Removal:** Confirms the cart updates correctly when items are deleted.
 5. **Batch Testing:** High-volume validation of multiple products with different quantities simultaneously.
 
+Note: This implementation improves upon standard examples by utilizing Playwright's auto-waiting mechanism and dynamic data validation between the catalog and the checkout preview.
+
 ## 🔧 Installation and Execution
 
 1. **Clone the repository:**
@@ -56,5 +58,7 @@ Tests are documented using the **Gherkin** format and include:
  requirements.txt: Project dependendy list.
  .gitignore: Files explided from version control.
  
+## 🎓 Credits & Attribution
 
+This project was inspired by the automation exercises from **Rahul Shetty Academy**. While the test scenarios are based on their practice platform, the **technical solution, architecture, and code implementation** (including the transition to Playwright-native assertions and modular functions) were designed and developed entirely by me as part of my learning journey.
 
