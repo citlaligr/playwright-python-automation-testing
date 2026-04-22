@@ -49,7 +49,7 @@ Note: This implementation improves upon standard examples by utilizing Playwrigh
    ```bash
    # Run all tests in headed mode
     pytest --headed
-   ```bash
+   
    # Run and generate an HTML report
     pytest --html=report.html
 
