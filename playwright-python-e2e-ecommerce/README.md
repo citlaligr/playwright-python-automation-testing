@@ -48,10 +48,10 @@ Note: This implementation improves upon standard examples by utilizing Playwrigh
 5. **Run test:**
    ```bash
    # Run all tests in headed mode
-     pytest --headed
-
-# Run and generate an HTML report
-pytest --html=report.html
+    pytest --headed
+   ```bash
+   # Run and generate an HTML report
+    pytest --html=report.html
 
 ## 📂 Installation and Execution
  test_green_cart.py: Contains the test scripts.
