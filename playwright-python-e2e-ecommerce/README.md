@@ -46,12 +46,11 @@ Note: This implementation improves upon standard examples by utilizing Playwrigh
    playwright install
 
 5. **Run test:**
-   Run all tests in headed mode
-   ```bash
-   pytest --headed
-   Run and generate an HTML report
-   ```bash
-   pytest --html=report.html
+   # Run all tests in headed mode
+pytest --headed
+
+# Run and generate an HTML report
+pytest --html=report.html
 
 ## 📂 Installation and Execution
  test_green_cart.py: Contains the test scripts.
