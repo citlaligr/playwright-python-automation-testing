@@ -46,8 +46,9 @@ Note: This implementation improves upon standard examples by utilizing Playwrigh
    playwright install
 
 5. **Run test:**
+   ```bash
    # Run all tests in headed mode
-pytest --headed
+     pytest --headed
 
 # Run and generate an HTML report
 pytest --html=report.html
