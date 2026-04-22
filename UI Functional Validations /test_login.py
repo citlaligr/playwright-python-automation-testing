@@ -1,5 +1,7 @@
 from playwright.sync_api import Page, expect
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
 #Scenario: Validate the successful login
 #          Given the user is on the web page
 #          When the user type the correct username and password
@@ -8,8 +10,10 @@ from playwright.sync_api import Page, expect
 
 def test_succesfulLogin(page: Page):
     page.goto("https://rahulshettyacademy.com/loginpagePractise/")
-    page.locator("#username").fill("rahulshettyacademy")
-    page.locator("#password").fill("Learning@830$3mK2")
+    user = os.getenv("PRACTICE_USER")
+    password = os.getenv("PRACTICE_PASSWORD")
+    page.locator("#username").fill(user)
+    page.locator("#password").fill(password)
     page.get_by_role("button", name="Sign In").click()
     page.wait_for_url("**/shop")
     print(f"url: {page.url}")
